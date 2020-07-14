@@ -2,9 +2,11 @@
 
 An assignment was carried out to classify candidate exoplanets based on the feature data of candidate objects.
 
+
 Read the CSV
 
 -First, data was read in from a CSV file that contained feature data and koi_disposition classifications.
+
 
 Feature Selection
 
@@ -13,10 +15,12 @@ Feature Selection
 -After that, the koi_dispositions from the DataFrame were assigned to a variable of the same name and reshaped to prepare for Machine 
 Learning.
 
+
 Train Test Split
 
 -From there, the 'train_test_split' from sklearn was used to randomly split the data into 'X_train', 'X_test', 'y_train', and 'y_test'
 variables.
+
 
 Pre-Processing
 
@@ -27,8 +31,8 @@ values to enable classification analysis.
 
 -Models were created in two separate Jupyter Notebooks to try different approaches to classifying data.
 
-	-In 'model_1.ipynb', a K_Nearest_Neighbors classifier was used to find the optimal amount of k nearest data points that should be 
-	used to for making predictions.
+	-In 'model_1.ipynb', a K_Nearest_Neighbors classifier was used to find the optimal amount of k nearest data 
+	points that should be used to for making predictions.
 
 		-The optimal value was k=17.
 
@@ -50,6 +54,7 @@ values to enable classification analysis.
 
 			-Testing data: R^2=0.827
 
+
 Hyperparameter Tuning
 
 -For both of these models, 'GridSearchCV' was used to optimize the predictions of the models by way of hyperparameter tuning.
@@ -70,13 +75,16 @@ Hyperparameter Tuning
 
 -Lastly, ANOVA analysis was done to obtain the F-values and p-values for each feature and order by relative importance.
 
-	-Iterative passthroughs of the feature selection were done to select the right amount/types of features followed by all of the
-	proceeded steps in order to maximize the R^2 values from the hyperparameter tuning step with GridSearchCV.
+	-Iterative passthroughs of the feature selection were done to select the right amount/types of features 
+	followed by all of the proceeded steps in order to maximize the R^2 values from the hyperparameter tuning 
+	step with GridSearchCV.
+
 
 Save the Model
 
 -The models were saved as a final step so that users could pull the model parameters and use them on other sets of planetary data if
 desired.
+
 
 Conclusions
 
