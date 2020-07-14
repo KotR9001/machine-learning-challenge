@@ -3,14 +3,18 @@
 An assignment was carried out to classify candidate exoplanets based on the feature data of candidate objects.
 
 Read the CSV
+
 -First, data was read in from a CSV file that contained feature data and koi_disposition classifications.
 
 Feature Selection
+
 -Next, features were selected for analysis and assigned to the 'selected_features' variable.
+
 -After that, the koi_dispositions from the DataFrame were assigned to a variable of the same name and reshaped to prepare for Machine 
 Learning.
 
 Train Test Split
+
 -From there, the 'train_test_split' from sklearn was used to randomly split the data into 'X_train', 'X_test', 'y_train', and 'y_test'
 variables.
 
