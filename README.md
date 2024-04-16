@@ -62,7 +62,7 @@ values to enable classification analysis.<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/f171473b-202c-4f1d-a006-adc348cd04e2)<br />
 -Lastly, performed ANOVA analysis to obtain the F-values and p-values for each feature and order by relative importance.<br />
 	-Did iterative passthroughs of the feature selection to select the right amount/types of features 
-	followed by all of the proceeded steps in order to maximize the R^2 values from the hyperparameter tuning 
+	followed by all of the proceeded steps in order to maximize the accuracy values from the hyperparameter tuning 
 	step with GridSearchCV.<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/1259548f-ca26-4e67-9a1a-5970f51f9f99)<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/2d475d47-1616-488c-b03d-eb890d8ef99c)<br />
