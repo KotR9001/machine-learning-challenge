@@ -33,15 +33,15 @@ values to enable classification analysis.<br />
 		-Set 'model1' as KNeighborsClassifier(n_neighbors=17)<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/debc7c9b-5e4e-4fc8-af47-064d1a97c7fd)<br />
 		-Fit 'model1' to 'X_train_scaled' and 'one_hot_y_train', and obtained scores as follows:<br />
-			-Training data: R^2=0.857<br />
-			-Testing data: R^2=0.847<br />
+			-Training data: Accuracy=0.857<br />
+			-Testing data: Accuracy=0.847<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/27a8de71-8caa-4ec8-a686-e3c63d6b7a34)<br />
 	-In 'model_2.ipynb', used a LogisticRegression classifier.<br />
 		-Set 'model2' as LogisticRegression.<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/2215db8f-665c-4aeb-9763-2dd1dd9f7d5f)<br />
 		-Fit 'model2' to 'X_train_scaled' and 'encoded_y_train', and obtained scores as follows:<br />
-			-Training data: R^2=0.835<br />
-			-Testing data: R^2=0.827<br />
+			-Training data: Accuracy=0.835<br />
+			-Testing data: Accuracy=0.827<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/57776e2e-e4e6-45cf-b156-b5809d4705a5)<br />
 <br />
 <b>Hyperparameter Tuning</b><br />
@@ -53,9 +53,9 @@ values to enable classification analysis.<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/4e8b8614-c709-499a-924a-7f610180c50b)<br />
 -Made predictions based on 'X_test_scaled'.<br />
 	-The final scores were as follows:<br />
-		-'model1': R^2=0.841<br />
+		-'model1': Accuracy=0.841<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/d19871cd-f0b9-40d1-acc7-0708b10de041)<br />
-		-'model2': R^2=0.841<br />
+		-'model2': Accuracy=0.841<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/0fdc3f0d-f887-4e88-a154-3540ec97a702)<br />
 -Used the 'classification_report' module to compare the predicted and actual values.<br />
 ![image](https://github.com/KotR9001/machine-learning-challenge/assets/57807780/7aff46f6-91dc-420c-b3a1-6cda3543dac4)<br />
